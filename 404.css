@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #eee;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 1pc;
+width: 40%;
+margin: 5pc auto;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3rem;
+}
+
+.file-status {
+    margin-top: 2pc;
+    font-weight: bold;
+    text-align: center;
+}
+
+ul {
+    margin-left: 2pc;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: flex-end;
+}
+.btn {
+    height: 2pc;
+    width: 7pc;
+}
+
+/* for screen sizes less than 996px */
+
+@media only screen and (max-width: 996px) {
+    .container {
+        width: 70%;
+    }
+}
+
+/* for screen sizes less than 500px */
+
+@media only screen and (max-width: 500px) {
+    .container {
+        width: 80%;
+    }
+}
